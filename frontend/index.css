@@ -25,6 +25,19 @@ body {
     padding: 2rem;
 }
 
+.banner {
+    margin: -2rem -2rem 2rem -2rem;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -162,6 +175,15 @@ input[type="text"] {
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
+    }
+
+    .banner {
+        margin: -1rem -1rem 1rem -1rem;
+        max-height: 200px;
+    }
+
+    .banner img {
+        height: 200px;
     }
 
     header {
